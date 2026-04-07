@@ -1,0 +1,43 @@
+{
+  "processing_info": {
+    "timestamp": "2025-09-01T12:10:39.004460",
+    "total_records": 25545,
+    "categories": {
+      "CARD": 5980,
+      "LOAN": 5954,
+      "ACCOUNT": 2994,
+      "FIND": 1998,
+      "CONTACT": 1997,
+      "TRANSFER": 1992,
+      "ATM": 1983,
+      "PASSWORD": 1700,
+      "FEES": 947
+    },
+    "intents": {
+      "activate_card": 1000,
+      "find_branch": 1000,
+      "check_recent_transactions": 999,
+      "human_agent": 999,
+      "close_account": 999,
+      "customer_service": 998,
+      "find_ATM": 998,
+      "block_card": 998,
+      "activate_card_international_usage": 997,
+      "apply_for_mortgage": 997,
+      "make_transfer": 997,
+      "cancel_card": 996,
+      "cancel_mortgage": 996,
+      "check_card_annual_fee": 996,
+      "create_account": 996,
+      "cancel_transfer": 995,
+      "recover_swallowed_card": 994,
+      "check_current_balance_on_card": 993,
+      "apply_for_loan": 992,
+      "cancel_loan": 990
+    }
+  },
+  "pii_summary": {
+    "records_with_pii": 0,
+    "pii_types_found": {}
+  }
+}
