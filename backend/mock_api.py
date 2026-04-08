@@ -48,7 +48,6 @@ def not_found(e):
     return send_from_directory(app.static_folder, "index.html")
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8501))
-    print(f"Starting server at http://0.0.0.0:{port} (accessible externally via Render URL)")
-    # Run with host 0.0.0.0 for LAN access
+    port = int(os.environ.get("PORT", 10000))  # Render provides PORT
+    print(f"Starting server at http://0.0.0.0:{port}")
     app.run(host="0.0.0.0", port=port, debug=False)
